@@ -24,4 +24,4 @@ git status
 
 git remote add origin 
 https://github.com/bel0513/maquetado-web.git
-(Añade ña direccion de su repositorio se hace o ejecuta una única vez)
+(Añade ña direccion de su repositorio se hace o ejecuta una única vez) .

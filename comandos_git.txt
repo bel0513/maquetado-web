@@ -1,2 +1,27 @@
 git init
 "sirve para iniciar el repositorio local"
+
+git config --local user.name "Angel"
+(Esto configura al nombre de usuario localmente)
+
+git config --local user.email "angeltoledo123x@gmail.com"
+(esto configura el email de usuario asoiado a la cuenta de githud)
+
+git add .
+(añade todos los archivos al repositorio)
+
+git branch -M main
+(cambiar el nombre de la rama de Master a Main)
+
+git commit -m "version de subida"
+(es la version que usted esta subiendo al repo)
+
+git push -u origin main
+(Esto empuja los cambios locales a la nube)
+
+git status
+(Comprueba el estatus de la rama)
+
+git remote add origin 
+https://github.com/bel0513/maquetado-web.git
+(Añade ña direccion de su repositorio se hace o ejecuta una única vez)

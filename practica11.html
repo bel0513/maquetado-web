@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- la etiqueta table se utliza para definir tablas en HTML. todo el contenido de la tabla, incluidas las filas y celdas, se colocan dentro de esta etiqueta  -->
+
+    <!-- La etiqueta tr se utiliza para definir una fila en nuna taba. cada fla puede contener una o mas celdas, que s definen utilizando la etiqueta td (para celdas de taos) o th (para celdas de encabezado)->
+
+    <!--a etiqueta td define una celda de datos dentro de una fila. cada etiqueta td representa una columna en la tabla -->
+
+<!--La etiqueta th define una celda de encabezado dentro de una fila. Cada etiqueta th representa un encabezado de columna en la tabla-->
+
+
+<table border= "1" <!--etiqueta de apertura-->
+    <tr> <!--fila 1-->
+        <th>encabezado1</th>
+        <th>Encabezado2</th>
+        <th>Encabezado3</th>
+    </tr>
+    <tr border="1"> <!--fila 2-->
+        <td>Juan</td>
+        <td>25</td>
+        <td>Madrid</td>
+    </tr>
+    <tr> <!--fila 3-->
+        <td>Ana</td>
+        <td>30</td>
+        <td>Barcelona</td>
+    </tr>
+    <tr border="1"> <!--fila 4-->
+        <td>Luis</td>
+        <td>28</td>
+        <td>Valencia</td>
+    </tr>
+</table>
+
+<br>
+
+<table border="1">
+    <caption>paises y capitales</caption>
+    <tr>
+        <th>Pais </th>
+        <th>Capital</th>>
+    </tr>
+    <tr>
+        <td>Camisa</td>
+        <td>$20</td>
+        <td>2</td>
+    </tr>
+    <tr>
+        <td>España</td>
+        <td>Madrid</td>
+    </tr>
+    <tr>
+        <td>Francia</td>
+        <td>Paris</td>
+    </tr>
+    <tr>
+        <td>Italia</td>
+        <td>Roma</td>
+
+<br>
+
+<table border="1" <!--tabla con celdas combinadas-->
+    <tr>
+        <th>Colspan="4">Mundial de futbol</th><!--celda de encabezado que abarca dos columnas -->
+    </tr>
+    <tr>
+        <td rowspan="3">Paises con mayoria de goles</td><!--celda que abarca tres filas-->
+        <td>Brasil 2</td> <td>239</td>
+        <td>Madrid</td>
+    </tr>
+    <tr>
+        <td>alemania</td> <td>180</td>
+    </tr>
+    <tr>
+        <td>Argentina</td> <td>150</td>
+    </tr>
+</body>
+</html>
